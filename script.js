@@ -12,3 +12,4 @@ const pocetHodin = Number(prompt("Zadej, kolik hodin denně pracuješ:"));
 const pocetDni = Number(prompt("Zadej, kolik dní v měsíci pracuješ:"));
 
 document.body.innerHTML += "<p> Vyděláváš " + hodinovaSazba * pocetHodin * pocetDni + ",- Kč měsíčně.</p>";
+
